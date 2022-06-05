@@ -15,12 +15,12 @@ require("./bootstrap");
 // require("./src/components/Example");
 import React from "react";
 import ReactDOM from "react-dom";
-import Example from "./src/components/Example";
 import Master from "./src/components/Master";
+import LocationItem from "./src/components/selectbox";
 
 if (document.getElementById("example")) {
     ReactDOM.render(
-        <Master children={<Example />} />,
+        <Master children={<LocationItem />} />,
         document.getElementById("example")
     );
 }
