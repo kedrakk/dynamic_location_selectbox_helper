@@ -1,8 +1,8 @@
 import React from "react";
 
 const Footer = () => (
-    <div className="footer">
-        <p>This is some content in sticky footer</p>
+    <div className="footer text-center">
+        <p>Dynamic Location Select Helper</p>
     </div>
 );
 

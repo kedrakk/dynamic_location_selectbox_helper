@@ -2,7 +2,7 @@ import React from "react";
 
 function LocationItem() {
     return (
-        <div className="container">
+        <div className="mt-5">
             <div className="row justify-content-center my-auto">
                 <div className="col-md-3">
                     <select

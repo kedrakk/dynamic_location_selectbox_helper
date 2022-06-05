@@ -11,7 +11,7 @@ class Master extends Component {
                         </span>
                     </div>
                 </nav>
-                <div className="container ">{this.props.children}</div>
+                <div className="container">{this.props.children}</div>
                 <div>{this.props.footer}</div>
             </div>
         );
