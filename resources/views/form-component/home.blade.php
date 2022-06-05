@@ -1,5 +1,5 @@
 @extends('layout.index')
 
 @section('content')
-    <div id="example"></div>
+    <div id="main-content"></div>
 @endsection

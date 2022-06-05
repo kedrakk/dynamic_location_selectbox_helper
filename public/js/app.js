@@ -2189,10 +2189,10 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 
-if (document.getElementById("example")) {
+if (document.getElementById("main-content")) {
   react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_src_components_Master__WEBPACK_IMPORTED_MODULE_2__["default"], {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_src_components_selectbox__WEBPACK_IMPORTED_MODULE_3__["default"], {})
-  }), document.getElementById("example"));
+  }), document.getElementById("main-content"));
 }
 
 /***/ }),

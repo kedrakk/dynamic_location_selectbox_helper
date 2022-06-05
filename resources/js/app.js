@@ -18,9 +18,9 @@ import ReactDOM from "react-dom";
 import Master from "./src/components/Master";
 import LocationItem from "./src/components/selectbox";
 
-if (document.getElementById("example")) {
+if (document.getElementById("main-content")) {
     ReactDOM.render(
         <Master children={<LocationItem />} />,
-        document.getElementById("example")
+        document.getElementById("main-content")
     );
 }
