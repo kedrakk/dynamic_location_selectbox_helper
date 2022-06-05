@@ -3,15 +3,50 @@ import React from "react";
 function LocationItem() {
     return (
         <div className="container">
-            <div className="row justify-content-center">
-                <div className="col-md-8">
-                    <div className="card">
-                        <div className="card-header">Example Component</div>
-
-                        <div className="card-body">
-                            I'm an example component!
-                        </div>
-                    </div>
+            <div className="row justify-content-center my-auto">
+                <div className="col-md-3">
+                    <select
+                        className="form-select form-select-lg mb-3"
+                        aria-label=".form-select-lg example"
+                    >
+                        <option defaultChecked>Select Country</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div className="col-md-3">
+                    <select
+                        className="form-select form-select-lg mb-3"
+                        aria-label=".form-select-lg example"
+                    >
+                        <option defaultChecked>Select State/Region</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div className="col-md-3">
+                    <select
+                        className="form-select form-select-lg mb-3"
+                        aria-label=".form-select-lg example"
+                    >
+                        <option defaultChecked>Select City</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div className="col-md-3">
+                    <select
+                        className="form-select form-select-lg mb-3"
+                        aria-label=".form-select-lg example"
+                    >
+                        <option defaultChecked>Select Township</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
                 </div>
             </div>
         </div>

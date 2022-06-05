@@ -4,14 +4,15 @@ class Master extends Component {
     render() {
         return (
             <div className="container-fluid">
-                <nav class="navbar navbar-light bg-light">
-                    <div class="container-fluid">
-                        <span class="navbar-brand mb-0 h1">
+                <nav className="navbar navbar-light bg-dark">
+                    <div className="container-fluid">
+                        <span className="navbar-brand mb-0 h1 text-white">
                             Dynamic Location Selector Helper
                         </span>
                     </div>
                 </nav>
-                <div className="container">{this.props.children}</div>
+                <div className="container ">{this.props.children}</div>
+                <div>{this.props.footer}</div>
             </div>
         );
     }

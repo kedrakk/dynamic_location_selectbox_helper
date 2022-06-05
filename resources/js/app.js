@@ -15,12 +15,13 @@ require("./bootstrap");
 // require("./src/components/Example");
 import React from "react";
 import ReactDOM from "react-dom";
+import Footer from "./src/components/Footer";
 import Master from "./src/components/Master";
 import LocationItem from "./src/components/selectbox";
 
 if (document.getElementById("main-content")) {
     ReactDOM.render(
-        <Master children={<LocationItem />} />,
+        <Master children={<LocationItem />} footer={<Footer></Footer>} />,
         document.getElementById("main-content")
     );
 }
